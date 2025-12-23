@@ -24,6 +24,16 @@ namespace HelloDotnet
             // Question13.Run(); // CALL QUESTION 13
             // Question14.Run(); // CALL QUESTION 14
             // Question15.Run(); // CALL QUESTION 15
+            // Question16.Run(); // CALL QUESTION 16
+            // Question17.Run(); // CALL QUESTION 17
+            // Question18.Run(); // CALL QUESTION 18
+            // Question19.Run(); // CALL QUESTION 19
+            // Question20.Run(); // CALL QUESTION 20
+            // Question21.Run(); // CALL QUESTION 21
+            // Question22.Run(); // CALL QUESTION 22
+            // Question23.Run(); // CALL QUESTION 23
+            // Question24.Run(); // CALL QUESTION 24
+            // Question25.Run(); // CALL QUESTION 25
 
 
             // Student.Details();
