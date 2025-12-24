@@ -12,3 +12,4 @@ D:\Dotnet\HelloDotnet\obj\Debug\net8.0\refint\HelloDotnet.dll
 D:\Dotnet\HelloDotnet\obj\Debug\net8.0\HelloDotnet.pdb
 D:\Dotnet\HelloDotnet\obj\Debug\net8.0\HelloDotnet.genruntimeconfig.cache
 D:\Dotnet\HelloDotnet\obj\Debug\net8.0\ref\HelloDotnet.dll
+D:\Dotnet\HelloDotnet\obj\Debug\net8.0\HelloDotnet.sourcelink.json

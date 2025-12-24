@@ -1,4 +1,5 @@
 ﻿using System;
+using Abstraction;
 using HelloDontnet.Classwork;
 using HelloDotnet.Assignment1;
 using HelloDotnet.Classwork;
@@ -34,12 +35,19 @@ namespace HelloDotnet
             // Question23.Run(); // CALL QUESTION 23
             // Question24.Run(); // CALL QUESTION 24
             // Question25.Run(); // CALL QUESTION 25
+            // Question26.Run(); // CALL QUESTION 26
+            // Question27.Run(); // CALL QUESTION 27
+            // Question28.Run(); // CALL QUESTION 28
+            // Question29.Run(); // CALL QUESTION 29
+            // Question30.Run(); // CALL QUESTION 30
+            
 
 
             // Student.Details();
             // Student.Print();
             // TaskRunner.Run();
-            StudentRunner.Run();
+            // StudentRunner.Run();
+            AbstractionDemo.Run();
         }
     }
 }
