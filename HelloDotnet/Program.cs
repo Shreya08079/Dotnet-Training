@@ -40,14 +40,15 @@ namespace HelloDotnet
             // Question28.Run(); // CALL QUESTION 28
             // Question29.Run(); // CALL QUESTION 29
             // Question30.Run(); // CALL QUESTION 30
-            
+
 
 
             // Student.Details();
             // Student.Print();
             // TaskRunner.Run();
             // StudentRunner.Run();
-            AbstractionDemo.Run();
+            // AbstractionDemo.Run();
+            InterfaceExample.Run();
         }
     }
 }
