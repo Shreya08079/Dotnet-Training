@@ -6,26 +6,28 @@ public class StringManipulation
     {
         Console.WriteLine("Enter the sentence: ");
         string input = Console.ReadLine();
-        long len = input.Length
 
-        for (var i = 0; i < len; i++)
+        long length = input.Length;  
+
+        // Validate characters
+        for (int charIndex = 0; charIndex < length; charIndex++)
         {
-            char ch = input[i];
-            if (!(ch >= 'A' && ch <= 'Z') &&
-                !(ch >= 'a' && ch <= 'z') &&
-                ch != ' ')
+            char currentChar = input[charIndex];
+            if (!(currentChar >= 'A' && currentChar <= 'Z') &&
+                !(currentChar >= 'a' && currentChar <= 'z') &&
+                currentChar != ' ')
             {
                 Console.WriteLine("Invalid Sentence.");
                 return;
             }
         }
 
-        string[] temp = input.Split(' ');
+        string[] words = input.Split(' ');
 
         int wordCount = 0;
-        for (int i = 0; i < temp.Length; i++)
+        for (int wordIndex = 0; wordIndex < words.Length; wordIndex++)
         {
-            if (temp[i] != "")
+            if (words[wordIndex] != "")
             {
                 wordCount++;
             }
@@ -33,27 +35,27 @@ public class StringManipulation
 
         Console.WriteLine("Word Count: " + wordCount);
 
-        // If  even reverse word order
+        // If word count is even reverse word order
         if (wordCount % 2 == 0)
         {
-            for (int i = temp.Length - 1; i >= 0; i--)
+            for (int reverseIndex = words.Length - 1; reverseIndex >= 0; reverseIndex--)
             {
-                if (temp[i] != "")
+                if (words[reverseIndex] != "")
                 {
-                    Console.Write(temp[i] + " ");
+                    Console.Write(words[reverseIndex] + " ");
                 }
             }
         }
         // If word count is odd reverse each word
         else
         {
-            for (int i = 0; i < temp.Length; i++)
+            for (int wordIndex = 0; wordIndex < words.Length; wordIndex++)
             {
-                if (temp[i] != "")
+                if (words[wordIndex] != "")
                 {
-                    for (int j = temp[i].Length - 1; j >= 0; j--)
+                    for (int letterIndex = words[wordIndex].Length - 1; letterIndex >= 0; letterIndex--)
                     {
-                        Console.Write(temp[i][j]);
+                        Console.Write(words[wordIndex][letterIndex]);
                     }
                     Console.Write(" ");
                 }
