@@ -7,7 +7,7 @@ public class BankAccount
         int balance = 10000;
 
         Console.WriteLine("Enter withdrawal amount:");
-        int amount = int.Parse(Console.ReadLine());
+        int amount = int.Parse(Console.ReadLine()!);
 
         try
         {
